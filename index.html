@@ -1,1 +1,151 @@
-My GitHub Page
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+<!-- SLIDE STUFF HERE -->
+<section>
+<h1 class="title">BigDataBe WorkShops</h1>
+<h2 class="author">Helsens Kenny, 02/05/2013</h2>
+<h3 class="date"><img src="https://dl.dropboxusercontent.com/u/513133/tumblr/logo_wb.png" height="98px" width="106px" /></h3>
+</section>
+<section class="slide level1" id="everybody-has-pet-projects">
+<h1>Everybody has pet projects</h1>
+<figure>
+<img src="http://0.tqn.com/d/politicalhumor/1/0/M/w/1/pet_projects.jpg"><figcaption></figcaption>
+</figure>
+<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+A project, activity or goal pursued as a personal favorite, rather than because it is generally accepted as necessary or important.
+</blockquote>
+</section>
+<section class="slide level1" id="previously">
+<h1>Previously</h1>
+<img src="./figure/kriging.png" height="400px"/>
+<ul class="incremental">
+<li class="fragment">HBase for zimmo.be</li>
+<li class="fragment">R analytics on real-estate data</li>
+<li class="fragment">1 topic, 6 months, 10 workshops</li>
+</ul>
+</section>
+<section class="slide level1" id="idea-1">
+<h1>Idea #1</h1>
+<h3 id="stock-markets-cannot-be-predicted">Stock markets cannot be predicted,</h3>
+<h3 id="yet-its-still-fun-to-give-it-a-try">yet it’s still fun to give it a try!</h3>
+<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+What would we be using?
+</blockquote>
+<ul class="incremental">
+<li class="fragment">Twitter Storm</li>
+<li class="fragment">Yahoo Finance &amp; Twitter API’s</li>
+<li class="fragment">Streaming Analytics</li>
+<li class="fragment">Sentiment Analysis</li>
+</ul>
+</section>
+<section class="slide level1" id="idea-2">
+<h1>Idea #2</h1>
+<h3 id="governance-data-remains-underused">Governance data remains underused,</h3>
+<h3 id="open-governance-data-will-change-this">open governance data will change this</h3>
+<ul class="incremental">
+<li class="fragment">FOD Economie is making the KBO publicly available</li>
+<li class="fragment">Model KBO for Graph Databases</li>
+<li class="fragment">Data enrichment opportunities
+<ul class="incremental">
+<li class="fragment">VDAB</li>
+<li class="fragment">Demographics</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level1" id="idea-3">
+<h1>Idea #3</h1>
+<h3 id="mining-health-care-data">Mining health care data,</h3>
+<h3 id="where-small-changes-hold-major-value">where small changes hold major value</h3>
+<figure>
+<img src="http://hackforhealth.be/wp-content/uploads/2013/03/Logo_HackForHealth_ZW-smaller1.jpg"><figcaption></figcaption>
+</figure>
+</section>
+<section class="slide level1" id="idea-4">
+<h1>Idea #4</h1>
+<h3 id="generating-insights-for-non-profit-organisations">Generating insights for non-profit organisations</h3>
+<ul class="incremental">
+<li class="fragment">Join Essent power consumption with NGO donations</li>
+<li class="fragment">Venture into data from BE based NGO’s</li>
+</ul>
+</section>
+<section class="slide level1" id="conclusion">
+<h1>Conclusion</h1>
+<h3 id="lets-join-our-pet-projects">Let’s join our pet projects,</h3>
+<h3 id="and-build-a-zoo">and build a zoo!</h3>
+<img src="http://i.imgur.com/GEDaeS1.jpg" height="400px"/>
+<img src="https://dl.dropboxusercontent.com/u/513133/tumblr/logo_wb.png" height="98px" width="106px" />
+</section>
+<!-- SLIDE STUFF HERE -->
+ 			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
